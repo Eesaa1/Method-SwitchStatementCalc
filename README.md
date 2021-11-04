@@ -17,10 +17,12 @@ namespace Functions_and_procedures
                    temp1 = Console.ReadLine();
                 try { 
                     temp = Convert.ToInt32(temp1);
-                    if (temp < 0 || temp > 4)
+                    if (temp < 0 || temp > 4) { 
                         Console.WriteLine("");
                         Console.WriteLine("Error with data input");
                         Console.WriteLine("");
+                    }
+                    else { 
                     switch (temp)
                     {
 
@@ -48,6 +50,7 @@ namespace Functions_and_procedures
 
                             Console.ReadKey();
 
+                    }
                     }
                 }
                 catch
