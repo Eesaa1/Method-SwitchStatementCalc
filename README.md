@@ -1,4 +1,8 @@
- class Program
+using System;
+
+namespace Functions_and_procedures
+{
+    class Program
     {
         static void Main(string[] args)
         {
@@ -9,10 +13,14 @@
             {
 
                 Menu();
-  
+                   
                    temp1 = Console.ReadLine();
                 try { 
                     temp = Convert.ToInt32(temp1);
+                    if (temp < 0 || temp > 5)
+                        Console.WriteLine("");
+                        Console.WriteLine("Error with data input");
+                        Console.WriteLine("");
                     switch (temp)
                     {
 
@@ -120,3 +128,5 @@
         }
     }
 }
+
+
