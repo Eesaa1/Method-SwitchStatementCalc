@@ -19,7 +19,7 @@ namespace Functions_and_procedures
                     temp = Convert.ToInt32(temp1);
                     if (temp < 0 || temp > 4) { 
                         Console.WriteLine("");
-                        Console.WriteLine("Error with data input");
+                        Console.WriteLine("Error with data input try again");
                         Console.WriteLine("");
                     }
                     else { 
